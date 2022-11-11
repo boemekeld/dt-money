@@ -1,7 +1,11 @@
-import { Header } from "../../components/Header";
+import { Dashboard } from '../../components/Dashboard'
+import { Header } from '../../components/Header'
 
 export function Transactions() {
   return (
-    <Header />
+    <div>
+      <Header />
+      <Dashboard />
+    </div>
   )
 }
